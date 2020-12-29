@@ -4,9 +4,5 @@ def my_each(words)
     yield(array[counter])
     counter += 1
   end
-end
-
-
-my_each(words) do |n|
-  return n
+  array
 end
