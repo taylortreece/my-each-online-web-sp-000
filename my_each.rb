@@ -6,10 +6,9 @@ def my_each(array)
   end
 end
 
-array = [1,2,3,4]
 
 my_each(array) do |n|
   return n
   end
 
-my_each(array)
+
