@@ -1,4 +1,4 @@
-def my_each(array)
+def my_each(n_array)
   counter = 0
   while counter < array.length
     yield
@@ -8,7 +8,7 @@ end
 
 n_array = [1,2,3,4]
 
-my_each(array) do |n|
+my_each(n_array) do |n|
   return n
   end
 
