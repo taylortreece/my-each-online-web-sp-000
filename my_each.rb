@@ -1,13 +1,12 @@
-def my_each(array)
+def my_each(words)
   counter = 0
-  while counter < array.length
+  while counter < words.length
     yield
     counter += 1
   end
 end
 
-array = ['hi', 'hello', 'bye', 'goodbye']
 
-my_each(array) do |n|
+my_each(words) do |n|
   return n
 end
