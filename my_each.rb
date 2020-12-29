@@ -6,7 +6,7 @@ def my_each(array)
   end
 end
 
-array = [1,2,3,4]
+array = ['hi', 'hello', 'bye', 'goodbye']
 
 my_each(array) do |n|
   return n
