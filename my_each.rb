@@ -8,4 +8,3 @@ end
 my_each(array) do |n|
   puts n
   end
-  
